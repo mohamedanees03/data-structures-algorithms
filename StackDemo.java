@@ -10,6 +10,13 @@ public class StackDemo {
         stack.push("Ibrahimovic");
         stack.push("Anees");
 
-        System.out.println(stack);
+        // String temp = stack.pop();
+        // String firstElement = stack.peek();
+
+        // System.out.println(firstElement);
+        // System.out.println(temp);
+        // System.out.println(stack);
+
+        System.out.println(stack.search("Messi"));
     }
 }
