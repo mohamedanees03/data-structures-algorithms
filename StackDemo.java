@@ -1,3 +1,8 @@
+/*
+    A Stack is a linear data structure that follows the LIFO principle:
+    LIFO (Last In, First Out) → The element inserted last will be removed first.
+*/
+
 import java.util.Stack;
 
 public class StackDemo {
@@ -17,6 +22,8 @@ public class StackDemo {
         // System.out.println(temp);
         // System.out.println(stack);
 
-        System.out.println(stack.search("Messi"));
+        // System.out.println(stack.search("Messi"));
+
+        System.out.println(stack.pop());
     }
 }
